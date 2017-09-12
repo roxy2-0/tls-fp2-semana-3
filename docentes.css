@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	background: #37383a;
+	padding: 20px 0;
+}
+
+header .container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+input {
+	background: #fff;
+	border-radius: 10px;
+	width: 200px;
+	padding: 5px 5px;
+	border-style: none;
+}
+
+img {
+	width: 20px;
+}
+
+ul {
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+}
+
+ul li {
+	list-style: none;
+	margin: 0 10px;
+}
+
+ul li a {
+	color: #ccc;
+	text-decoration: none;
+}
